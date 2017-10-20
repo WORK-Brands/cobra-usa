@@ -1,2 +1,6 @@
-# cobra-usa
-A collection of branding work done for a Motorcycle Exhaust company.
+Created by Codrops
+
+http://www.codrops.com
+
+Please read about our license: http://tympanus.net/codrops/licensing/
+
