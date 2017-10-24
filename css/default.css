@@ -72,7 +72,7 @@ a img {
 
 /* Main Content */
 .main {
-	max-width: 69em;
+	/*max-width: 69em;*/
 }
 
 .column {
@@ -275,7 +275,7 @@ a img {
 		width: 100%;
 		min-width: auto;
 		min-height: auto;
-		padding: 1em; 
+		padding: 1em;
 	}
 
 	.column p {
