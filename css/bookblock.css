@@ -10,6 +10,134 @@
 	backface-visibility: hidden;
 }
 
+@media only screen and (max-width: 1275px) { /* iPad */
+	.bb-bookblock {
+		width: 1200px;
+		height: 776px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 1024px) { /* iPad */
+	.bb-bookblock {
+		width: 949px;
+		height: 614px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 768px) { /* iPad */
+	.bb-bookblock {
+		width: 693px;
+		height: 449px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 736px) { /* iPad */
+	.bb-bookblock {
+		width: 661px;
+		height: 428px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 667px) { /* iPad */
+	.bb-bookblock {
+		width: 592px;
+		height: 383px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 568px) { /* iPad */
+	.bb-bookblock {
+		width: 493px;
+		height: 319px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 414px) { /* iPhone6+ */
+	.bb-bookblock {
+		width: 339px;
+		height: 220px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 375px) { /* iPhone6 */
+	.bb-bookblock {
+		width: 300px;
+		height: 194px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+@media only screen and (max-width: 320px) { /* iPhone5 */
+	.bb-bookblock {
+		width: 245px;
+		height: 159px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 100;
+		-webkit-perspective: 1300px;
+		perspective: 1300px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+}
+
+
+
 
 
 .bb-page {
