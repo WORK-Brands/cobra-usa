@@ -8,6 +8,10 @@
 	perspective: 1300px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	box-shadow: none;
+	-webkit-transition: box-shadow 1.5s;
+	transition: box-shadow 1.5s;
+
 }
 
 @media only screen and (max-width: 1275px) { /* iPad Pro */
@@ -257,8 +261,10 @@
 	height: 100%;
 	float: left;
 	text-align: center;
-	/* box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6); */
-
+	box-shadow: none;
+	-webkit-transition: box-shadow 1.5s;
+  transition: box-shadow 1.5s;
+	
 }
 
 .bb-info-left p {
@@ -275,6 +281,9 @@
 	float: right;
 	text-align: center;
 	box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6);
+	-webkit-transition: box-shadow 1.5s;
+	transition: box-shadow 1.5s;
+
 
 }
 
@@ -297,10 +306,6 @@
   background: #72b890;
   color: #fff;
 	margin: 20px;
-}
-
-.shadow {
-	box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6);
 }
 
 /* No JS */
