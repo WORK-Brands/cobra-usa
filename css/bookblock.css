@@ -299,6 +299,10 @@
 	margin: 20px;
 }
 
+.shadow {
+	box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6);
+}
+
 /* No JS */
 .no-js .bb-bookblock,
 .no-js ul.bb-custom-grid li {

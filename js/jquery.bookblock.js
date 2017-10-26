@@ -223,11 +223,48 @@
 			}
 
 			if ( this.current === 0 ) {
+				// hide bb-info-left shadow
+				$( ".bb-info-left" ).css( "box-shadow", "none" );
+
+				// show bb-info-right shadow
+
+				$( ".bb-info-right" ).css( "box-shadow", "0 12px 20px -10px rgba(81,64,49,0.6)" );
 				console.log('hello');
+
+				$( ".bb-info-right p" ).css( "display", "none" );
+
+				$( ".bb-bookblock" ).css( "box-shadow", "none" );
+
+
+			}
+
+			if ( this.current > 0 && this.current < 22 ) {
+				// fade in bb-info-right p
+
+				$( ".bb-bookblock" ).css( "box-shadow", "0 12px 20px -10px rgba(81,64,49,0.6)" );
+
+				// hide  bb-info-right shadow
+				$( ".bb-info-left" ).css( "box-shadow", "none" );
+				$( ".bb-info-right" ).css( "box-shadow", "none" );
+
+
+				$( ".bb-info-right p" ).css( "display", "none" );
+
+
 
 			}
 
 			if ( this.current === 22 ) {
+				// fade in bb-info-right p
+
+				$( ".bb-info-left" ).css( "box-shadow", "0 12px 20px -10px rgba(81,64,49,0.6)" );
+
+				// hide  bb-info-right shadow
+				$( ".bb-info-right" ).css( "box-shadow", "none" );
+
+				$( ".bb-info-right p" ).css( "display", "block" );
+
+				$( ".bb-bookblock" ).css( "box-shadow", "none" );
 
 
 				console.log('bye');
