@@ -251,6 +251,54 @@
  width: 100%;
 }
 
+.bb-info-left {
+
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	/* box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6); */
+
+}
+
+.bb-info-left p {
+	position: relative;
+	z-index: -999;
+	left: 50%;
+  top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bb-info-right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	box-shadow: 0 12px 20px -10px rgba(81,64,49,0.6);
+
+}
+
+.bb-info-right p {
+	display: none;
+	position: relative;
+	/* z-index: -999; */
+	left: 50%;
+  top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.bb-info-right a {
+	display: inline-block;
+  padding: 5px 20px 0 20px;
+  height: 30px;
+  text-align: center;
+  border-radius: 2px;
+  background: #72b890;
+  color: #fff;
+	margin: 20px;
+}
+
 /* No JS */
 .no-js .bb-bookblock,
 .no-js ul.bb-custom-grid li {
