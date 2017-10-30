@@ -264,7 +264,7 @@
 	box-shadow: none;
 	-webkit-transition: box-shadow 1.5s;
   transition: box-shadow 1.5s;
-	
+
 }
 
 .bb-info-left p {
@@ -299,8 +299,8 @@
 
 .bb-info-right a {
 	display: inline-block;
-  padding: 5px 20px 0 20px;
-  height: 30px;
+  padding: 5px 20px 5px 20px;
+  height: auto;
   text-align: center;
   border-radius: 2px;
   background: #72b890;
